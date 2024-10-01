@@ -1,0 +1,617 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section CSS started */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2F5FB;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: #3C64B1;
+    font-style: 28;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 20px;
+    cursor: pointer;
+}
+
+nav ul li {}
+
+nav ul li.home {
+    color: #3C64B1;
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #3C64B1;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #3C64B1;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.right {
+    margin-top: 120px;
+    margin-left: 180px;
+
+}
+
+.right h1 {
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.right p {
+    margin-top: 45px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.right input {
+    margin-top: 80px;
+    width: 150px;
+    height: 50px;
+    background-color: #3C64B1;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+}
+
+.left {
+    margin-left: 800px;
+    margin-top: -400px;
+    border: 2px solid #3C64B1;
+    width: 650px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: #EAEFF6;
+
+}
+
+.left .insidelile {
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #3C64B1;
+}
+
+.left .circle {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+    border: 1px solid #3C64B1;
+}
+
+/*=== Hero sectio CSS  Completed=== */
+
+
+/* === Features Section CSS started=== */
+
+.features .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+
+
+.features .heading {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    margin-top: -50px;
+    margin-right: 150px;
+}
+
+.heading .icon {
+    color: #3C64B1;
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.heading .storeTitle {
+    margin-top: 5px;
+    margin-left: 75px;
+    font-weight: 600;
+}
+
+.heading .para {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.heading .para span {
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+.heading .sendIcon {
+    color: #3C64B1;
+    margin-top: 50px;
+    margin-left: 130px;
+    font-size: 30px;
+}
+
+.heading .paraAuto {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.heading .paraAuto span {
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+.heading2 {
+    margin-left: 800px;
+    margin-top: -540px;
+}
+
+.heading2 .shieldIcon {
+    margin-top: -500px;
+    font-size: 30px;
+    color: #3C64B1;
+}
+
+.heading2 .dataTitle {
+    margin-top: 5px;
+    margin-left: -50px;
+    font-weight: 600;
+}
+
+.heading2 .paraData {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-left: -130px;
+}
+
+.heading2 .paraData span {
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.heading2 .socialIcon {
+    color: #3C64B1;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.heading2 .socialTitle {
+    margin-top: 5px;
+    margin-left: -50px;
+    font-weight: 600;
+}
+
+.heading2 .paraSocial {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-left: -130px;
+}
+
+.heading2 .paraSocial span {
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.heading3 {
+    margin-left: 1250px;
+    margin-top: -390px;
+}
+
+.heading3 .tagIcon {
+    color: #3C64B1;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.heading3 .InvoiceTitle {
+    margin-top: 5px;
+    margin-left: -50px;
+    font-weight: 600;
+}
+
+.heading3 .paraInvoice {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    margin-left: -130px;
+}
+
+.heading3 .paraInvoice span {
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.heading3 .dataIcon {
+    color: #3C64B1;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.heading3 .DataTitle {
+    margin-top: 5px;
+    margin-left: -30px;
+    font-weight: 600;
+}
+
+.heading3 .paraData {
+    margin-top: 10px;
+    color: gray;
+    font-size: small;
+    margin-left: -130px;
+}
+
+.heading3 .paraData .paraData1 {
+    margin-left: 20px;
+}
+
+.heading3 .paraData .paraData3 {
+    margin-left: 50px;
+}
+
+/* === Features Section Css Completed=== */
+
+
+/* ===Product Session Started === */
+
+.product {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.product .ProductTitle {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.product .productDesc {
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.product .ProductButton {
+    margin-top: 30px;
+    background-color: #3C64B1;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.graph {
+    margin-left: 700px;
+    margin-top: -220px;
+    border: 2px solid #3C64B1;
+    width: 600px;
+    height: 200px;
+    background-color: #EAEFF6;
+    border-radius: 3px;
+}
+
+
+.product2 {
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.emptybox {
+    width: 550px;
+    height: 350px;
+    border: 2px solid #3C64B1;
+    background-color: #EAEFF6;
+    border-radius: 5px;
+}
+
+.emptybox .circle {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+    border: 1px solid #3C64B1;
+}
+
+.emptybox .inside {
+    border: 1px solid #3C64B1;
+    margin-top: 10px;
+}
+
+.rightCont {
+    margin-left: 650px;
+    margin-top: -280px;
+}
+
+.rightCont .medkitIcon {
+    font-size: 30px;
+    color: #3C64B1;
+}
+
+.rightCont .ProDesc {
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+}
+
+.cube {
+    margin-top: 50px;
+}
+
+
+.cubeICon {
+    color: #3C64B1;
+    font-size: 30px;
+}
+
+.ProCube {
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+}
+
+.boxRight {
+    margin-left: 400px;
+    margin-top: -270px;
+}
+
+.keyIcon {
+    color: #3C64B1;
+    font-size: 30px;
+}
+
+.keyPara {
+    font-size: 14px;
+    font-weight: 200;
+    color: gray;
+}
+
+.Atm {
+    margin-top: 50px;
+}
+
+.AtmIcon {
+    font-size: 30px;
+    color: #3C64B1;
+}
+
+
+/* ===Product Session End === */
+
+
+
+
+/* Get Started Sessoin Started */
+
+
+.getStarted {
+    margin-top: 150px;
+    background-color: #EAEFF6;
+    width: 100%;
+    height: 450px;
+}
+
+.getStarted .started {
+    margin-left: 550px;
+    padding-top: 120px;
+}
+
+.getStarted .started .ready {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.getStarted .started .take {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.getStarted .started .take span {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.getStarted .started .get {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 100px;
+    height: 45px;
+    background-color: #3C64B1;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Get Started Session End  */
+
+
+/* === Footer Session Started === */
+
+.footer {
+    background-color: #363F40;
+    width: 100%;
+    height: 100px;
+    margin-top: -10px;
+}
+
+.footer p {
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 300;
+    margin: auto 0;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 0.5px;
+}
+
+/* === Footer Session End === */
+
+
+
+/* ======================================================== NEXT PAGE2 TASK CSS=========================================================================  */
+.hero .button .login {
+    color: #3C64B1;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    background: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero .button .signin {
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 100px;
+    background-color: #3C64B1;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+.simplify .online {
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.simplify .paradetails {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.simplify .input {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.simplify .input .freeTrial {
+    width: 120px;
+    height: 40px;
+    background-color: #3C64B1;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.simplify .input .LearnMore {
+    margin-left: 20px;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #3C64B1;
+    background-color: #EAEFF6;
+    color: #3C64B1;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.GrowBusiness {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.GrowBusiness .Business {
+    font-size: 500;
+}
+
+.GrowBusiness .shipping {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.Communication {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+
+.IconRight {
+    color: #3C64B1;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ship {
+    text-align: center;
+}
+
+.briefcase {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.dicover {
+    margin-top: 30px;
+    text-align: center;
+    color: #3C64B1;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.ar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
